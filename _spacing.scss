@@ -1,6 +1,8 @@
-///*------------------------------------*\
-//    #SPACING
-//\*------------------------------------*/
+// *************************************
+//
+//   #SPACING
+//
+// *************************************
 
 // Margin and padding helper classes. Use these to tweak layout on a micro
 // level.
@@ -8,30 +10,32 @@
 // `.(m|p)(t|r|b|l|h|v)(-|+|0) {}` = margin/padding top/right/bottom/left/horizontal/vertical less/more/none
 
 // Predefine the variables below in order to alter and enable specific features.
-$tree-margin:                          $tree-base-spacing-unit !default;
-$tree-padding:                         $tree-base-spacing-unit !default;
+$tree-spacing-namespace:                 $tree-namespace !default;
 
-$tree-enable-margins:                  false !default;
-$tree-enable-margins--tiny:            false !default;
-$tree-enable-margins--small:           false !default;
-$tree-enable-margins--large:           false !default;
-$tree-enable-margins--huge:            false !default;
+$tree-margin:                            $tree-base-spacing-unit !default;
+$tree-padding:                           $tree-base-spacing-unit !default;
 
-$tree-enable-margins--negative:        false !default;
-$tree-enable-margins--negative-tiny:   false !default;
-$tree-enable-margins--negative-small:  false !default;
-$tree-enable-margins--negative-large:  false !default;
-$tree-enable-margins--negative-huge:   false !default;
+$tree-enable-margins:                    false !default;
+$tree-enable-margins--tiny:              false !default;
+$tree-enable-margins--small:             false !default;
+$tree-enable-margins--large:             false !default;
+$tree-enable-margins--huge:              false !default;
 
-$tree-enable-margins--none:            false !default;
+$tree-enable-margins--negative:          false !default;
+$tree-enable-margins--negative-tiny:     false !default;
+$tree-enable-margins--negative-small:    false !default;
+$tree-enable-margins--negative-large:    false !default;
+$tree-enable-margins--negative-huge:     false !default;
 
-$tree-enable-paddings:                 false !default;
-$tree-enable-paddings--tiny:           false !default;
-$tree-enable-paddings--small:          false !default;
-$tree-enable-paddings--large:          false !default;
-$tree-enable-paddings--huge:           false !default;
+$tree-enable-margins--none:              false !default;
 
-$tree-enable-paddings--none:           false !default;
+$tree-enable-paddings:                   false !default;
+$tree-enable-paddings--tiny:             false !default;
+$tree-enable-paddings--small:            false !default;
+$tree-enable-paddings--large:            false !default;
+$tree-enable-paddings--huge:             false !default;
+
+$tree-enable-paddings--none:             false !default;
 
 
 
@@ -43,13 +47,13 @@ $tree-enable-paddings--none:           false !default;
     //
     // Add margins.
 
-    .#{$tree-namespace}m       { margin:           $tree-margin !important; }
-    .#{$tree-namespace}mt      { margin-top:       $tree-margin !important; }
-    .#{$tree-namespace}mr      { margin-right:     $tree-margin !important; }
-    .#{$tree-namespace}mb      { margin-bottom:    $tree-margin !important; }
-    .#{$tree-namespace}ml      { margin-left:      $tree-margin !important; }
-    .#{$tree-namespace}mh      { margin-right:     $tree-margin !important; margin-left:      $tree-margin !important; }
-    .#{$tree-namespace}mv      { margin-top:       $tree-margin !important; margin-bottom:    $tree-margin !important; }
+    .#{$tree-spacing-namespace}m       { margin:           $tree-margin !important; }
+    .#{$tree-spacing-namespace}mt      { margin-top:       $tree-margin !important; }
+    .#{$tree-spacing-namespace}mr      { margin-right:     $tree-margin !important; }
+    .#{$tree-spacing-namespace}mb      { margin-bottom:    $tree-margin !important; }
+    .#{$tree-spacing-namespace}ml      { margin-left:      $tree-margin !important; }
+    .#{$tree-spacing-namespace}mh      { margin-right:     $tree-margin !important; margin-left:      $tree-margin !important; }
+    .#{$tree-spacing-namespace}mv      { margin-top:       $tree-margin !important; margin-bottom:    $tree-margin !important; }
 
 }
 
@@ -58,13 +62,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add tiny margins.
 
-    .#{$tree-namespace}m--     { margin:           quarter($tree-margin) !important; }
-    .#{$tree-namespace}mt--    { margin-top:       quarter($tree-margin) !important; }
-    .#{$tree-namespace}mr--    { margin-right:     quarter($tree-margin) !important; }
-    .#{$tree-namespace}mb--    { margin-bottom:    quarter($tree-margin) !important; }
-    .#{$tree-namespace}ml--    { margin-left:      quarter($tree-margin) !important; }
-    .#{$tree-namespace}mh--    { margin-right:     quarter($tree-margin) !important; margin-left:     quarter($tree-margin) !important; }
-    .#{$tree-namespace}mv--    { margin-top:       quarter($tree-margin) !important; margin-bottom:   quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}m--     { margin:           quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mt--    { margin-top:       quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mr--    { margin-right:     quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mb--    { margin-bottom:    quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}ml--    { margin-left:      quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mh--    { margin-right:     quarter($tree-margin) !important; margin-left:     quarter($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mv--    { margin-top:       quarter($tree-margin) !important; margin-bottom:   quarter($tree-margin) !important; }
 
 }
 
@@ -73,13 +77,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add small margins.
 
-    .#{$tree-namespace}m-      { margin:           halve($tree-margin) !important; }
-    .#{$tree-namespace}mt-     { margin-top:       halve($tree-margin) !important; }
-    .#{$tree-namespace}mr-     { margin-right:     halve($tree-margin) !important; }
-    .#{$tree-namespace}mb-     { margin-bottom:    halve($tree-margin) !important; }
-    .#{$tree-namespace}ml-     { margin-left:      halve($tree-margin) !important; }
-    .#{$tree-namespace}mh-     { margin-right:     halve($tree-margin) !important; margin-left:   halve($tree-margin) !important; }
-    .#{$tree-namespace}mv-     { margin-top:       halve($tree-margin) !important; margin-bottom: halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}m-      { margin:           halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mt-     { margin-top:       halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mr-     { margin-right:     halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mb-     { margin-bottom:    halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}ml-     { margin-left:      halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mh-     { margin-right:     halve($tree-margin) !important; margin-left:   halve($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mv-     { margin-top:       halve($tree-margin) !important; margin-bottom: halve($tree-margin) !important; }
 
 }
 
@@ -88,13 +92,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add large margins.
 
-    .#{$tree-namespace}m\+     { margin:           double($tree-margin) !important; }
-    .#{$tree-namespace}mt\+    { margin-top:       double($tree-margin) !important; }
-    .#{$tree-namespace}mr\+    { margin-right:     double($tree-margin) !important; }
-    .#{$tree-namespace}mb\+    { margin-bottom:    double($tree-margin) !important; }
-    .#{$tree-namespace}ml\+    { margin-left:      double($tree-margin) !important; }
-    .#{$tree-namespace}mh\+    { margin-right:     double($tree-margin) !important; margin-left:      double($tree-margin) !important; }
-    .#{$tree-namespace}mv\+    { margin-top:       double($tree-margin) !important; margin-bottom:    double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}m\+     { margin:           double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mt\+    { margin-top:       double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mr\+    { margin-right:     double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mb\+    { margin-bottom:    double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}ml\+    { margin-left:      double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mh\+    { margin-right:     double($tree-margin) !important; margin-left:      double($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mv\+    { margin-top:       double($tree-margin) !important; margin-bottom:    double($tree-margin) !important; }
 
 }
 
@@ -103,13 +107,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add huge margins.
 
-    .#{$tree-namespace}m\+\+   { margin:           quadruple($tree-margin) !important; }
-    .#{$tree-namespace}mt\+\+  { margin-top:       quadruple($tree-margin) !important; }
-    .#{$tree-namespace}mr\+\+  { margin-right:     quadruple($tree-margin) !important; }
-    .#{$tree-namespace}mb\+\+  { margin-bottom:    quadruple($tree-margin) !important; }
-    .#{$tree-namespace}ml\+\+  { margin-left:      quadruple($tree-margin) !important; }
-    .#{$tree-namespace}mh\+\+  { margin-right:     quadruple($tree-margin) !important; margin-left:   quadruple($tree-margin) !important; }
-    .#{$tree-namespace}mv\+\+  { margin-top:       quadruple($tree-margin) !important; margin-bottom: quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}m\+\+   { margin:           quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mt\+\+  { margin-top:       quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mr\+\+  { margin-right:     quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mb\+\+  { margin-bottom:    quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}ml\+\+  { margin-left:      quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mh\+\+  { margin-right:     quadruple($tree-margin) !important; margin-left:   quadruple($tree-margin) !important; }
+    .#{$tree-spacing-namespace}mv\+\+  { margin-top:       quadruple($tree-margin) !important; margin-bottom: quadruple($tree-margin) !important; }
 
 }
 
@@ -118,13 +122,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Remove margins.
 
-    .#{$tree-namespace}m0      { margin:           0 !important; }
-    .#{$tree-namespace}mt0     { margin-top:       0 !important; }
-    .#{$tree-namespace}mr0     { margin-right:     0 !important; }
-    .#{$tree-namespace}mb0     { margin-bottom:    0 !important; }
-    .#{$tree-namespace}ml0     { margin-left:      0 !important; }
-    .#{$tree-namespace}mh0     { margin-right:     0 !important; margin-left:      0 !important; }
-    .#{$tree-namespace}mv0     { margin-top:       0 !important; margin-bottom:    0 !important; }
+    .#{$tree-spacing-namespace}m0      { margin:           0 !important; }
+    .#{$tree-spacing-namespace}mt0     { margin-top:       0 !important; }
+    .#{$tree-spacing-namespace}mr0     { margin-right:     0 !important; }
+    .#{$tree-spacing-namespace}mb0     { margin-bottom:    0 !important; }
+    .#{$tree-spacing-namespace}ml0     { margin-left:      0 !important; }
+    .#{$tree-spacing-namespace}mh0     { margin-right:     0 !important; margin-left:      0 !important; }
+    .#{$tree-spacing-namespace}mv0     { margin-top:       0 !important; margin-bottom:    0 !important; }
 
 }
 
@@ -133,13 +137,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Negative margins.
 
-    .#{$tree-namespace}-m      { margin:           -$tree-margin !important; }
-    .#{$tree-namespace}-mt     { margin-top:       -$tree-margin !important; }
-    .#{$tree-namespace}-mr     { margin-right:     -$tree-margin !important; }
-    .#{$tree-namespace}-mb     { margin-bottom:    -$tree-margin !important; }
-    .#{$tree-namespace}-ml     { margin-left:      -$tree-margin !important; }
-    .#{$tree-namespace}-mh     { margin-right:     -$tree-margin !important; margin-left:      -$tree-margin !important; }
-    .#{$tree-namespace}-mv     { margin-top:       -$tree-margin !important; margin-bottom:    -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-m      { margin:           -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-mt     { margin-top:       -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-mr     { margin-right:     -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-mb     { margin-bottom:    -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-ml     { margin-left:      -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-mh     { margin-right:     -$tree-margin !important; margin-left:      -$tree-margin !important; }
+    .#{$tree-spacing-namespace}-mv     { margin-top:       -$tree-margin !important; margin-bottom:    -$tree-margin !important; }
 
 }
 
@@ -148,13 +152,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Tiny negative margins.
 
-    .#{$tree-namespace}-m--    { margin:           quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-mt--   { margin-top:       quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-mr--   { margin-right:     quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-mb--   { margin-bottom:    quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-ml--   { margin-left:      quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-mh--   { margin-right:     quarter(-$tree-margin) !important; margin-left:     quarter(-$tree-margin) !important; }
-    .#{$tree-namespace}-mv--   { margin-top:       quarter(-$tree-margin) !important; margin-bottom:   quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-m--    { margin:           quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mt--   { margin-top:       quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mr--   { margin-right:     quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mb--   { margin-bottom:    quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-ml--   { margin-left:      quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mh--   { margin-right:     quarter(-$tree-margin) !important; margin-left:     quarter(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mv--   { margin-top:       quarter(-$tree-margin) !important; margin-bottom:   quarter(-$tree-margin) !important; }
 
 }
 
@@ -163,13 +167,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Small negative margins.
 
-    .#{$tree-namespace}-m-     { margin:           halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-mt-    { margin-top:       halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-mr-    { margin-right:     halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-mb-    { margin-bottom:    halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-ml-    { margin-left:      halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-mh-    { margin-right:     halve(-$tree-margin) !important; margin-left:   halve(-$tree-margin) !important; }
-    .#{$tree-namespace}-mv-    { margin-top:       halve(-$tree-margin) !important; margin-bottom: halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-m-     { margin:           halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mt-    { margin-top:       halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mr-    { margin-right:     halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mb-    { margin-bottom:    halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-ml-    { margin-left:      halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mh-    { margin-right:     halve(-$tree-margin) !important; margin-left:   halve(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mv-    { margin-top:       halve(-$tree-margin) !important; margin-bottom: halve(-$tree-margin) !important; }
 
 }
 
@@ -178,13 +182,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Large negative margins.
 
-    .#{$tree-namespace}-m\+    { margin:           double(-$tree-margin) !important; }
-    .#{$tree-namespace}-mt\+   { margin-top:       double(-$tree-margin) !important; }
-    .#{$tree-namespace}-mr\+   { margin-right:     double(-$tree-margin) !important; }
-    .#{$tree-namespace}-mb\+   { margin-bottom:    double(-$tree-margin) !important; }
-    .#{$tree-namespace}-ml\+   { margin-left:      double(-$tree-margin) !important; }
-    .#{$tree-namespace}-mh\+   { margin-right:     double(-$tree-margin) !important; margin-left:      double(-$tree-margin) !important; }
-    .#{$tree-namespace}-mv\+   { margin-top:       double(-$tree-margin) !important; margin-bottom:    double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-m\+    { margin:           double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mt\+   { margin-top:       double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mr\+   { margin-right:     double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mb\+   { margin-bottom:    double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-ml\+   { margin-left:      double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mh\+   { margin-right:     double(-$tree-margin) !important; margin-left:      double(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mv\+   { margin-top:       double(-$tree-margin) !important; margin-bottom:    double(-$tree-margin) !important; }
 
 }
 
@@ -193,13 +197,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Huge negative margins.
 
-    .#{$tree-namespace}-m\+\+  { margin:           quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-mt\+\+ { margin-top:       quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-mr\+\+ { margin-right:     quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-mb\+\+ { margin-bottom:    quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-ml\+\+ { margin-left:      quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-mh\+\+ { margin-right:     quadruple(-$tree-margin) !important; margin-left:   quadruple(-$tree-margin) !important; }
-    .#{$tree-namespace}-mv\+\+ { margin-top:       quadruple(-$tree-margin) !important; margin-bottom: quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-m\+\+  { margin:           quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mt\+\+ { margin-top:       quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mr\+\+ { margin-right:     quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mb\+\+ { margin-bottom:    quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-ml\+\+ { margin-left:      quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mh\+\+ { margin-right:     quadruple(-$tree-margin) !important; margin-left:   quadruple(-$tree-margin) !important; }
+    .#{$tree-spacing-namespace}-mv\+\+ { margin-top:       quadruple(-$tree-margin) !important; margin-bottom: quadruple(-$tree-margin) !important; }
 
 }
 
@@ -213,13 +217,13 @@ $tree-enable-paddings--none:           false !default;
     //
     // Add paddings.
 
-    .#{$tree-namespace}p       { padding:          $tree-padding !important; }
-    .#{$tree-namespace}pt      { padding-top:      $tree-padding !important; }
-    .#{$tree-namespace}pr      { padding-right:    $tree-padding !important; }
-    .#{$tree-namespace}pb      { padding-bottom:   $tree-padding !important; }
-    .#{$tree-namespace}pl      { padding-left:     $tree-padding !important; }
-    .#{$tree-namespace}ph      { padding-right:    $tree-padding !important; padding-left:    $tree-padding !important; }
-    .#{$tree-namespace}pv      { padding-top:      $tree-padding !important; padding-bottom:  $tree-padding !important; }
+    .#{$tree-spacing-namespace}p       { padding:          $tree-padding !important; }
+    .#{$tree-spacing-namespace}pt      { padding-top:      $tree-padding !important; }
+    .#{$tree-spacing-namespace}pr      { padding-right:    $tree-padding !important; }
+    .#{$tree-spacing-namespace}pb      { padding-bottom:   $tree-padding !important; }
+    .#{$tree-spacing-namespace}pl      { padding-left:     $tree-padding !important; }
+    .#{$tree-spacing-namespace}ph      { padding-right:    $tree-padding !important; padding-left:    $tree-padding !important; }
+    .#{$tree-spacing-namespace}pv      { padding-top:      $tree-padding !important; padding-bottom:  $tree-padding !important; }
 
 }
 
@@ -228,13 +232,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add tiny paddings.
 
-    .#{$tree-namespace}p--     { padding:           quarter($tree-padding) !important; }
-    .#{$tree-namespace}pt--    { padding-top:       quarter($tree-padding) !important; }
-    .#{$tree-namespace}pr--    { padding-right:     quarter($tree-padding) !important; }
-    .#{$tree-namespace}pb--    { padding-bottom:    quarter($tree-padding) !important; }
-    .#{$tree-namespace}pl--    { padding-left:      quarter($tree-padding) !important; }
-    .#{$tree-namespace}ph--    { padding-right:     quarter($tree-padding) !important; padding-left:      quarter($tree-padding) !important; }
-    .#{$tree-namespace}pv--    { padding-top:       quarter($tree-padding) !important; padding-bottom:    quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}p--     { padding:           quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pt--    { padding-top:       quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pr--    { padding-right:     quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pb--    { padding-bottom:    quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pl--    { padding-left:      quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}ph--    { padding-right:     quarter($tree-padding) !important; padding-left:      quarter($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pv--    { padding-top:       quarter($tree-padding) !important; padding-bottom:    quarter($tree-padding) !important; }
 
 }
 
@@ -243,13 +247,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add small paddings.
 
-    .#{$tree-namespace}p-      { padding:           halve($tree-padding) !important; }
-    .#{$tree-namespace}pt-     { padding-top:       halve($tree-padding) !important; }
-    .#{$tree-namespace}pr-     { padding-right:     halve($tree-padding) !important; }
-    .#{$tree-namespace}pb-     { padding-bottom:    halve($tree-padding) !important; }
-    .#{$tree-namespace}pl-     { padding-left:      halve($tree-padding) !important; }
-    .#{$tree-namespace}ph-     { padding-right:     halve($tree-padding) !important; padding-left:    halve($tree-padding) !important; }
-    .#{$tree-namespace}pv-     { padding-top:       halve($tree-padding) !important; padding-bottom:  halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}p-      { padding:           halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pt-     { padding-top:       halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pr-     { padding-right:     halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pb-     { padding-bottom:    halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pl-     { padding-left:      halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}ph-     { padding-right:     halve($tree-padding) !important; padding-left:    halve($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pv-     { padding-top:       halve($tree-padding) !important; padding-bottom:  halve($tree-padding) !important; }
 
 }
 
@@ -258,13 +262,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add large paddings.
 
-    .#{$tree-namespace}p\+     { padding:           double($tree-padding) !important; }
-    .#{$tree-namespace}pt\+    { padding-top:       double($tree-padding) !important; }
-    .#{$tree-namespace}pr\+    { padding-right:     double($tree-padding) !important; }
-    .#{$tree-namespace}pb\+    { padding-bottom:    double($tree-padding) !important; }
-    .#{$tree-namespace}pl\+    { padding-left:      double($tree-padding) !important; }
-    .#{$tree-namespace}ph\+    { padding-right:     double($tree-padding) !important; padding-left:   double($tree-padding) !important; }
-    .#{$tree-namespace}pv\+    { padding-top:       double($tree-padding) !important; padding-bottom: double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}p\+     { padding:           double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pt\+    { padding-top:       double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pr\+    { padding-right:     double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pb\+    { padding-bottom:    double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pl\+    { padding-left:      double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}ph\+    { padding-right:     double($tree-padding) !important; padding-left:   double($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pv\+    { padding-top:       double($tree-padding) !important; padding-bottom: double($tree-padding) !important; }
 
 }
 
@@ -273,13 +277,13 @@ $tree-enable-paddings--none:           false !default;
 
     // Add huge paddings.
 
-    .#{$tree-namespace}p\+\+   { padding:           quadruple($tree-padding) !important; }
-    .#{$tree-namespace}pt\+\+  { padding-top:       quadruple($tree-padding) !important; }
-    .#{$tree-namespace}pr\+\+  { padding-right:     quadruple($tree-padding) !important; }
-    .#{$tree-namespace}pb\+\+  { padding-bottom:    quadruple($tree-padding) !important; }
-    .#{$tree-namespace}pl\+\+  { padding-left:      quadruple($tree-padding) !important; }
-    .#{$tree-namespace}ph\+\+  { padding-right:     quadruple($tree-padding) !important; padding-left:    quadruple($tree-padding) !important; }
-    .#{$tree-namespace}pv\+\+  { padding-top:       quadruple($tree-padding) !important; padding-bottom:  quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}p\+\+   { padding:           quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pt\+\+  { padding-top:       quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pr\+\+  { padding-right:     quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pb\+\+  { padding-bottom:    quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pl\+\+  { padding-left:      quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}ph\+\+  { padding-right:     quadruple($tree-padding) !important; padding-left:    quadruple($tree-padding) !important; }
+    .#{$tree-spacing-namespace}pv\+\+  { padding-top:       quadruple($tree-padding) !important; padding-bottom:  quadruple($tree-padding) !important; }
 
 }
 
@@ -288,12 +292,12 @@ $tree-enable-paddings--none:           false !default;
 
     // Remove paddings.
 
-    .#{$tree-namespace}p0      { padding:          0 !important; }
-    .#{$tree-namespace}pt0     { padding-top:      0 !important; }
-    .#{$tree-namespace}pr0     { padding-right:    0 !important; }
-    .#{$tree-namespace}pb0     { padding-bottom:   0 !important; }
-    .#{$tree-namespace}pl0     { padding-left:     0 !important; }
-    .#{$tree-namespace}ph0     { padding-right:    0 !important; padding-left:     0 !important; }
-    .#{$tree-namespace}pv0     { padding-top:      0 !important; padding-bottom:   0 !important; }
+    .#{$tree-spacing-namespace}p0      { padding:          0 !important; }
+    .#{$tree-spacing-namespace}pt0     { padding-top:      0 !important; }
+    .#{$tree-spacing-namespace}pr0     { padding-right:    0 !important; }
+    .#{$tree-spacing-namespace}pb0     { padding-bottom:   0 !important; }
+    .#{$tree-spacing-namespace}pl0     { padding-left:     0 !important; }
+    .#{$tree-spacing-namespace}ph0     { padding-right:    0 !important; padding-left:     0 !important; }
+    .#{$tree-spacing-namespace}pv0     { padding-top:      0 !important; padding-bottom:   0 !important; }
 
 }
