@@ -1,7 +1,13 @@
 # Spacing
 
-The `spacing` module is clone of [inuitcss] (https://github.com/inuitcss) -
-[trumps.spacing] (https://github.com/inuitcss/trumps.spacing) <q>a small
-collection of helper classes for spacings like margin and padding</q>.
+The `spacing` module is a small collection of helper classes for spacings like
+margin and padding.
 
-It is develop and maintained by [Harry Roberts] (https://twitter.com/csswizardry).
+Install using Bower:
+
+    $ bower install --save tree-spacing
+
+## Credits
+
+* **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
+framework designed with scalability and performance in mind.
