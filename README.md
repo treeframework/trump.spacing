@@ -5,7 +5,15 @@ margin and padding.
 
 Install using Bower:
 
-    $ bower install --save tree-spacing
+```sh
+$ bower install tree-spacing --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-spacing --save
+```
 
 ## Credits
 
