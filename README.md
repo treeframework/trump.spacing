@@ -47,6 +47,7 @@ Once installed, `@import` into your project in its Trump layer:
 
 ```scss
 @import "trump.spacing/trump.spacing";
+```
 
 ### Install via file download
 
