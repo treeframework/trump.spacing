@@ -1,22 +1,22 @@
 # Spacing
 
-The `spacing` module is a small collection of helper classes for spacings like
+The `Spacing` module is a small collection of helper classes for spacings like
 margin and padding.
 
 ## Dependencies
 
-The Link-clean object depends on two other modules:
+The `Spacing` module depends on two other modules:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 * [tools.functions](https://github.com/treeframework/tools.functions)
 
-If you install the `Responsive` module using Bower or npm, you will get these
+If you install the `Spacing` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
 install and `@import` these dependencies in the relevant way.
 
 ## Installation
 
-You can install `Responsive` module via Bower, npm, Git Submodule, or copy and
+You can install `Spacing` module via Bower, npm, Git Submodule, or copy and
 paste.
 
 ### Install using Bower:
