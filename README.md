@@ -12,7 +12,7 @@ The Link-clean object depends on two other modules:
 
 If you install the `Responsive` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
-install and @import these dependencies in the relevant way.
+install and `@import` these dependencies in the relevant way.
 
 ## Installation
 
