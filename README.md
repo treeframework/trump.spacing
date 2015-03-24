@@ -105,7 +105,7 @@ The classes take the following form: `.u-[negative][type][direction][size]`
 
 ```html
 <header class="u-mb+">
-    Large margin bottom
+    Margin bottom large
 </header>
 ```
 
