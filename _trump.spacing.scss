@@ -57,13 +57,13 @@ $tree-enable-paddings--none:             false !default;
     //
     // Add margins.
 
-    .#{$tree-spacing-namespace}m       { margin:           $tree-margin !important; }
-    .#{$tree-spacing-namespace}mt      { margin-top:       $tree-margin !important; }
-    .#{$tree-spacing-namespace}mr      { margin-right:     $tree-margin !important; }
-    .#{$tree-spacing-namespace}mb      { margin-bottom:    $tree-margin !important; }
-    .#{$tree-spacing-namespace}ml      { margin-left:      $tree-margin !important; }
-    .#{$tree-spacing-namespace}mh      { margin-right:     $tree-margin !important; margin-left:      $tree-margin !important; }
-    .#{$tree-spacing-namespace}mv      { margin-top:       $tree-margin !important; margin-bottom:    $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-m       { margin:           $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-mt      { margin-top:       $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-mr      { margin-right:     $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-mb      { margin-bottom:    $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-ml      { margin-left:      $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-mh      { margin-right:     $tree-margin !important; margin-left:      $tree-margin !important; }
+    .#{$tree-spacing-namespace}u-mv      { margin-top:       $tree-margin !important; margin-bottom:    $tree-margin !important; }
 
 }
 
@@ -72,13 +72,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add tiny margins.
 
-    .#{$tree-spacing-namespace}m--     { margin:           $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}mt--    { margin-top:       $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}mr--    { margin-right:     $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}mb--    { margin-bottom:    $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}ml--    { margin-left:      $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}mh--    { margin-right:     $tree-margin--tiny !important; margin-left:      $tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}mv--    { margin-top:       $tree-margin--tiny !important; margin-bottom:    $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-m--     { margin:           $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-mt--    { margin-top:       $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-mr--    { margin-right:     $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-mb--    { margin-bottom:    $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-ml--    { margin-left:      $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-mh--    { margin-right:     $tree-margin--tiny !important; margin-left:      $tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u-mv--    { margin-top:       $tree-margin--tiny !important; margin-bottom:    $tree-margin--tiny !important; }
 
 }
 
@@ -87,13 +87,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add small margins.
 
-    .#{$tree-spacing-namespace}m-      { margin:           $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}mt-     { margin-top:       $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}mr-     { margin-right:     $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}mb-     { margin-bottom:    $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}ml-     { margin-left:      $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}mh-     { margin-right:     $tree-margin--small !important; margin-left:      $tree-margin--small !important; }
-    .#{$tree-spacing-namespace}mv-     { margin-top:       $tree-margin--small !important; margin-bottom:    $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-m-      { margin:           $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-mt-     { margin-top:       $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-mr-     { margin-right:     $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-mb-     { margin-bottom:    $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-ml-     { margin-left:      $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-mh-     { margin-right:     $tree-margin--small !important; margin-left:      $tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u-mv-     { margin-top:       $tree-margin--small !important; margin-bottom:    $tree-margin--small !important; }
 
 }
 
@@ -102,13 +102,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add large margins.
 
-    .#{$tree-spacing-namespace}m\+     { margin:           $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}mt\+    { margin-top:       $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}mr\+    { margin-right:     $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}mb\+    { margin-bottom:    $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}ml\+    { margin-left:      $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}mh\+    { margin-right:     $tree-margin--large !important; margin-left:      $tree-margin--large !important; }
-    .#{$tree-spacing-namespace}mv\+    { margin-top:       $tree-margin--large !important; margin-bottom:    $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-m\+     { margin:           $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-mt\+    { margin-top:       $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-mr\+    { margin-right:     $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-mb\+    { margin-bottom:    $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-ml\+    { margin-left:      $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-mh\+    { margin-right:     $tree-margin--large !important; margin-left:      $tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u-mv\+    { margin-top:       $tree-margin--large !important; margin-bottom:    $tree-margin--large !important; }
 
 }
 
@@ -117,13 +117,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add huge margins.
 
-    .#{$tree-spacing-namespace}m\+\+   { margin:           $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}mt\+\+  { margin-top:       $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}mr\+\+  { margin-right:     $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}mb\+\+  { margin-bottom:    $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}ml\+\+  { margin-left:      $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}mh\+\+  { margin-right:     $tree-margin--huge !important; margin-left:      $tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}mv\+\+  { margin-top:       $tree-margin--huge !important; margin-bottom:    $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-m\+\+   { margin:           $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-mt\+\+  { margin-top:       $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-mr\+\+  { margin-right:     $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-mb\+\+  { margin-bottom:    $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-ml\+\+  { margin-left:      $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-mh\+\+  { margin-right:     $tree-margin--huge !important; margin-left:      $tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u-mv\+\+  { margin-top:       $tree-margin--huge !important; margin-bottom:    $tree-margin--huge !important; }
 
 }
 
@@ -132,13 +132,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Remove margins.
 
-    .#{$tree-spacing-namespace}m0      { margin:           0 !important; }
-    .#{$tree-spacing-namespace}mt0     { margin-top:       0 !important; }
-    .#{$tree-spacing-namespace}mr0     { margin-right:     0 !important; }
-    .#{$tree-spacing-namespace}mb0     { margin-bottom:    0 !important; }
-    .#{$tree-spacing-namespace}ml0     { margin-left:      0 !important; }
-    .#{$tree-spacing-namespace}mh0     { margin-right:     0 !important; margin-left:      0 !important; }
-    .#{$tree-spacing-namespace}mv0     { margin-top:       0 !important; margin-bottom:    0 !important; }
+    .#{$tree-spacing-namespace}u-m0      { margin:           0 !important; }
+    .#{$tree-spacing-namespace}u-mt0     { margin-top:       0 !important; }
+    .#{$tree-spacing-namespace}u-mr0     { margin-right:     0 !important; }
+    .#{$tree-spacing-namespace}u-mb0     { margin-bottom:    0 !important; }
+    .#{$tree-spacing-namespace}u-ml0     { margin-left:      0 !important; }
+    .#{$tree-spacing-namespace}u-mh0     { margin-right:     0 !important; margin-left:      0 !important; }
+    .#{$tree-spacing-namespace}u-mv0     { margin-top:       0 !important; margin-bottom:    0 !important; }
 
 }
 
@@ -147,13 +147,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Negative margins.
 
-    .#{$tree-spacing-namespace}-m      { margin:           -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-mt     { margin-top:       -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-mr     { margin-right:     -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-mb     { margin-bottom:    -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-ml     { margin-left:      -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-mh     { margin-right:     -$tree-margin !important; margin-left:      -$tree-margin !important; }
-    .#{$tree-spacing-namespace}-mv     { margin-top:       -$tree-margin !important; margin-bottom:    -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--m      { margin:           -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--mt     { margin-top:       -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--mr     { margin-right:     -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--mb     { margin-bottom:    -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--ml     { margin-left:      -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--mh     { margin-right:     -$tree-margin !important; margin-left:      -$tree-margin !important; }
+    .#{$tree-spacing-namespace}u--mv     { margin-top:       -$tree-margin !important; margin-bottom:    -$tree-margin !important; }
 
 }
 
@@ -162,13 +162,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Tiny negative margins.
 
-    .#{$tree-spacing-namespace}-m--    { margin:           -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-mt--   { margin-top:       -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-mr--   { margin-right:     -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-mb--   { margin-bottom:    -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-ml--   { margin-left:      -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-mh--   { margin-right:     -$tree-margin--tiny !important; margin-left:     -$tree-margin--tiny !important; }
-    .#{$tree-spacing-namespace}-mv--   { margin-top:       -$tree-margin--tiny !important; margin-bottom:   -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--m--    { margin:           -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--mt--   { margin-top:       -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--mr--   { margin-right:     -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--mb--   { margin-bottom:    -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--ml--   { margin-left:      -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--mh--   { margin-right:     -$tree-margin--tiny !important; margin-left:     -$tree-margin--tiny !important; }
+    .#{$tree-spacing-namespace}u--mv--   { margin-top:       -$tree-margin--tiny !important; margin-bottom:   -$tree-margin--tiny !important; }
 
 }
 
@@ -177,13 +177,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Small negative margins.
 
-    .#{$tree-spacing-namespace}-m-     { margin:           -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-mt-    { margin-top:       -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-mr-    { margin-right:     -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-mb-    { margin-bottom:    -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-ml-    { margin-left:      -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-mh-    { margin-right:     -$tree-margin--small !important; margin-left:      -$tree-margin--small !important; }
-    .#{$tree-spacing-namespace}-mv-    { margin-top:       -$tree-margin--small !important; margin-bottom:    -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--m-     { margin:           -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--mt-    { margin-top:       -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--mr-    { margin-right:     -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--mb-    { margin-bottom:    -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--ml-    { margin-left:      -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--mh-    { margin-right:     -$tree-margin--small !important; margin-left:      -$tree-margin--small !important; }
+    .#{$tree-spacing-namespace}u--mv-    { margin-top:       -$tree-margin--small !important; margin-bottom:    -$tree-margin--small !important; }
 
 }
 
@@ -192,13 +192,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Large negative margins.
 
-    .#{$tree-spacing-namespace}-m\+    { margin:           -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-mt\+   { margin-top:       -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-mr\+   { margin-right:     -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-mb\+   { margin-bottom:    -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-ml\+   { margin-left:      -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-mh\+   { margin-right:     -$tree-margin--large !important; margin-left:      -$tree-margin--large !important; }
-    .#{$tree-spacing-namespace}-mv\+   { margin-top:       -$tree-margin--large !important; margin-bottom:    -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--m\+    { margin:           -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--mt\+   { margin-top:       -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--mr\+   { margin-right:     -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--mb\+   { margin-bottom:    -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--ml\+   { margin-left:      -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--mh\+   { margin-right:     -$tree-margin--large !important; margin-left:      -$tree-margin--large !important; }
+    .#{$tree-spacing-namespace}u--mv\+   { margin-top:       -$tree-margin--large !important; margin-bottom:    -$tree-margin--large !important; }
 
 }
 
@@ -207,13 +207,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Huge negative margins.
 
-    .#{$tree-spacing-namespace}-m\+\+  { margin:           -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-mt\+\+ { margin-top:       -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-mr\+\+ { margin-right:     -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-mb\+\+ { margin-bottom:    -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-ml\+\+ { margin-left:      -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-mh\+\+ { margin-right:     -$tree-margin--huge !important; margin-left:      -$tree-margin--huge !important; }
-    .#{$tree-spacing-namespace}-mv\+\+ { margin-top:       -$tree-margin--huge !important; margin-bottom:    -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--m\+\+  { margin:           -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--mt\+\+ { margin-top:       -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--mr\+\+ { margin-right:     -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--mb\+\+ { margin-bottom:    -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--ml\+\+ { margin-left:      -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--mh\+\+ { margin-right:     -$tree-margin--huge !important; margin-left:      -$tree-margin--huge !important; }
+    .#{$tree-spacing-namespace}u--mv\+\+ { margin-top:       -$tree-margin--huge !important; margin-bottom:    -$tree-margin--huge !important; }
 
 }
 
@@ -227,13 +227,13 @@ $tree-enable-paddings--none:             false !default;
     //
     // Add paddings.
 
-    .#{$tree-spacing-namespace}p       { padding:          $tree-padding !important; }
-    .#{$tree-spacing-namespace}pt      { padding-top:      $tree-padding !important; }
-    .#{$tree-spacing-namespace}pr      { padding-right:    $tree-padding !important; }
-    .#{$tree-spacing-namespace}pb      { padding-bottom:   $tree-padding !important; }
-    .#{$tree-spacing-namespace}pl      { padding-left:     $tree-padding !important; }
-    .#{$tree-spacing-namespace}ph      { padding-right:    $tree-padding !important; padding-left:    $tree-padding !important; }
-    .#{$tree-spacing-namespace}pv      { padding-top:      $tree-padding !important; padding-bottom:  $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-p       { padding:          $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-pt      { padding-top:      $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-pr      { padding-right:    $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-pb      { padding-bottom:   $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-pl      { padding-left:     $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-ph      { padding-right:    $tree-padding !important; padding-left:    $tree-padding !important; }
+    .#{$tree-spacing-namespace}u-pv      { padding-top:      $tree-padding !important; padding-bottom:  $tree-padding !important; }
 
 }
 
@@ -242,13 +242,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add tiny paddings.
 
-    .#{$tree-spacing-namespace}p--     { padding:           $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}pt--    { padding-top:       $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}pr--    { padding-right:     $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}pb--    { padding-bottom:    $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}pl--    { padding-left:      $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}ph--    { padding-right:     $tree-padding--tiny !important; padding-left:      $tree-padding--tiny !important; }
-    .#{$tree-spacing-namespace}pv--    { padding-top:       $tree-padding--tiny !important; padding-bottom:    $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-p--     { padding:           $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-pt--    { padding-top:       $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-pr--    { padding-right:     $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-pb--    { padding-bottom:    $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-pl--    { padding-left:      $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-ph--    { padding-right:     $tree-padding--tiny !important; padding-left:      $tree-padding--tiny !important; }
+    .#{$tree-spacing-namespace}u-pv--    { padding-top:       $tree-padding--tiny !important; padding-bottom:    $tree-padding--tiny !important; }
 
 }
 
@@ -257,13 +257,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add small paddings.
 
-    .#{$tree-spacing-namespace}p-      { padding:           $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}pt-     { padding-top:       $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}pr-     { padding-right:     $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}pb-     { padding-bottom:    $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}pl-     { padding-left:      $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}ph-     { padding-right:     $tree-padding--small !important; padding-left:      $tree-padding--small !important; }
-    .#{$tree-spacing-namespace}pv-     { padding-top:       $tree-padding--small !important; padding-bottom:    $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-p-      { padding:           $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-pt-     { padding-top:       $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-pr-     { padding-right:     $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-pb-     { padding-bottom:    $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-pl-     { padding-left:      $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-ph-     { padding-right:     $tree-padding--small !important; padding-left:      $tree-padding--small !important; }
+    .#{$tree-spacing-namespace}u-pv-     { padding-top:       $tree-padding--small !important; padding-bottom:    $tree-padding--small !important; }
 
 }
 
@@ -272,13 +272,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add large paddings.
 
-    .#{$tree-spacing-namespace}p\+     { padding:           $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}pt\+    { padding-top:       $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}pr\+    { padding-right:     $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}pb\+    { padding-bottom:    $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}pl\+    { padding-left:      $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}ph\+    { padding-right:     $tree-padding--large !important; padding-left:      $tree-padding--large !important; }
-    .#{$tree-spacing-namespace}pv\+    { padding-top:       $tree-padding--large !important; padding-bottom:    $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-p\+     { padding:           $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-pt\+    { padding-top:       $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-pr\+    { padding-right:     $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-pb\+    { padding-bottom:    $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-pl\+    { padding-left:      $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-ph\+    { padding-right:     $tree-padding--large !important; padding-left:      $tree-padding--large !important; }
+    .#{$tree-spacing-namespace}u-pv\+    { padding-top:       $tree-padding--large !important; padding-bottom:    $tree-padding--large !important; }
 
 }
 
@@ -287,13 +287,13 @@ $tree-enable-paddings--none:             false !default;
 
     // Add huge paddings.
 
-    .#{$tree-spacing-namespace}p\+\+   { padding:           $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}pt\+\+  { padding-top:       $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}pr\+\+  { padding-right:     $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}pb\+\+  { padding-bottom:    $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}pl\+\+  { padding-left:      $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}ph\+\+  { padding-right:     $tree-padding--huge !important; padding-left:      $tree-padding--huge !important; }
-    .#{$tree-spacing-namespace}pv\+\+  { padding-top:       $tree-padding--huge !important; padding-bottom:    $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-p\+\+   { padding:           $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-pt\+\+  { padding-top:       $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-pr\+\+  { padding-right:     $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-pb\+\+  { padding-bottom:    $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-pl\+\+  { padding-left:      $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-ph\+\+  { padding-right:     $tree-padding--huge !important; padding-left:      $tree-padding--huge !important; }
+    .#{$tree-spacing-namespace}u-pv\+\+  { padding-top:       $tree-padding--huge !important; padding-bottom:    $tree-padding--huge !important; }
 
 }
 
@@ -302,12 +302,12 @@ $tree-enable-paddings--none:             false !default;
 
     // Remove paddings.
 
-    .#{$tree-spacing-namespace}p0      { padding:          0 !important; }
-    .#{$tree-spacing-namespace}pt0     { padding-top:      0 !important; }
-    .#{$tree-spacing-namespace}pr0     { padding-right:    0 !important; }
-    .#{$tree-spacing-namespace}pb0     { padding-bottom:   0 !important; }
-    .#{$tree-spacing-namespace}pl0     { padding-left:     0 !important; }
-    .#{$tree-spacing-namespace}ph0     { padding-right:    0 !important; padding-left:     0 !important; }
-    .#{$tree-spacing-namespace}pv0     { padding-top:      0 !important; padding-bottom:   0 !important; }
+    .#{$tree-spacing-namespace}u-p0      { padding:          0 !important; }
+    .#{$tree-spacing-namespace}u-pt0     { padding-top:      0 !important; }
+    .#{$tree-spacing-namespace}u-pr0     { padding-right:    0 !important; }
+    .#{$tree-spacing-namespace}u-pb0     { padding-bottom:   0 !important; }
+    .#{$tree-spacing-namespace}u-pl0     { padding-left:     0 !important; }
+    .#{$tree-spacing-namespace}u-ph0     { padding-right:    0 !important; padding-left:     0 !important; }
+    .#{$tree-spacing-namespace}u-pv0     { padding-top:      0 !important; padding-bottom:   0 !important; }
 
 }
