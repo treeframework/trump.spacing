@@ -1,22 +1,22 @@
 # Spacing
 
-The `Spacing` module is a small collection of helper classes for spacings like
+The `spacing` module is a small collection of helper classes for spacings like
 margin and padding.
 
 ## Dependencies
 
-The `Spacing` module depends on two other modules:
+The `spacing` module depends on two other modules:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 * [tools.functions](https://github.com/treeframework/tools.functions)
 
-If you install the `Spacing` module using Bower or npm, you will get these
+If you install the `spacing` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
 install and `@import` these dependencies in the relevant way.
 
 ## Installation
 
-You can install `Spacing` module via Bower, npm, Git Submodule, or copy and
+You can install `spacing` module via Bower, npm, Git Submodule, or copy and
 paste.
 
 ### Install using Bower:
@@ -54,6 +54,60 @@ Once installed, `@import` into your project in its Trump layer:
 The least recommended option for installation is to simply download
 `_trump.spacing.scss` into your project and `@import` it into your
 project in its Trump layer.
+
+## Usage
+
+The classes take the following form: `.u-[negative][type][direction][size]`
+
+### Negative
+
+`-`
+
+### Types
+
+`m` &mdash; margin
+
+`p` &mdash; padding
+
+### Direction
+
+`t` &mdash; top
+
+`r` &mdash; right
+
+`b` &mdash; bottom
+
+`l` &mdash; left
+
+`h` &mdash; horizontal
+
+`v` &mdash; vertical
+
+### Sizes
+
+`0` &mdash; none
+
+`--` &mdash; tiny
+
+`-` &mdash; small
+
+`+` &mdash; large
+
+`++` &mdash; huge
+
+### Example
+
+```html
+<blockquote>
+    <p class="u-mb0">Margin bottom none</p>
+</blockquote>
+```
+
+```html
+<header class="u-mb+">
+    Large margin bottom
+</header>
+```
 
 ## Credits
 
